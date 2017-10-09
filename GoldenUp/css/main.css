@@ -1,0 +1,373 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: "ProximaNovaRegular";
+}
+
+header {
+    background: url('../img/bg/bg-header.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 618px;
+}
+
+header .top {
+    padding-top: 62px;
+}
+
+header .top .logo {
+    margin-left: 60px;
+}
+
+nav ul {
+    transition: max-height 1s;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    text-align: right;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+nav ul li {
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+nav .black-item {
+    background-color: #0b0d14;
+    padding: 20px 70px;
+}
+
+nav .yellow-item {
+    background-color: #ffcf5c;
+    padding: 20px 40px;
+}
+
+nav .link-black {
+    font-size: 20px;
+    color: #2e281c
+}
+
+nav .link-white {
+    font-size: 20px;
+    color: #fff;
+}
+
+.menu_icon {
+    text-align: right;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.toggle {
+    cursor: pointer;
+    color: #fff;
+}
+
+.content h1 {
+    text-align: center;
+    padding-top: 160px;
+    color: #fff;
+    font-size: 36px;
+}
+
+.content .tan {
+    color: #ffcf5c;
+    font-size: 77px;
+}
+
+.content .deg {
+    font-size: 77px;
+}
+
+/**   ============================ info ============================   **/
+
+#info {
+    background: url(../img/bg/bg-white.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+#info h2 {
+    text-align: center;
+    padding-top: 65px 0;
+    font-size: 32px;
+}
+
+#info h3 {
+    margin: 35px 0;
+    font-size: 24px;
+}
+
+#info p {
+    font-size: 18px;
+}
+
+.block-info1 {
+    margin-bottom: 70px;
+}
+
+.block-info2 {
+    margin-bottom: 70px;
+}
+
+/**   ============================ questions   ============================ **/
+
+#questions {
+    background: url(../img/bg/bg-man.png) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.questions-content {
+    color: #fff;
+}
+
+.questions-content {
+    margin: 100px 0;
+    vertical-align: middle;
+}
+
+.questions-content h3 {
+    font-size: 32px;
+    line-height: 45px;
+    text-align: left;
+}
+
+.questions-content p {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+}
+
+/**   ============================   kripto   ============================ **/
+
+#kripto {
+    color: #1b1b23;
+}
+
+#kripto h3 {
+    margin-top: 70px;
+    font-size: 33px;
+    line-height: 40px;
+    color: #1b1b23;
+    text-align: center;
+}
+
+.wrap-kripto {
+    margin: 100px 0;
+    /** text-align: center; **/
+}
+
+.kripto-text {
+    margin: 35px 0 0 0;
+
+}
+
+.kripto-bold {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.wrap-row {
+    margin-top: 100px;
+}
+
+
+/** ============================   MEDIA  ============================ **/
+
+@media (max-width: 1200px) {
+    
+    header .top .logo {
+        margin-left: 50px;
+        padding-bottom: 30px;
+    }
+
+    nav ul li {
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .menu-icon {
+        display: block;
+    }
+    
+    .showing {
+        max-height: 10em;
+    }
+    
+    .content h1 {
+        padding-top: 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+
+    .content h1 {
+        padding-top: 80px;
+        font-size: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    header .top .logo {
+        margin-left: 30px;
+    }
+    
+    nav ul {
+        max-height: 0px;
+        margin: 0;
+        padding: 0;
+    }
+  
+    nav ul li {
+        width: 100%;
+        margin: 2px;  
+        text-align: left;
+        border-radius: 0px;
+        padding: 0;
+        margin: 2 auto;
+        text-align: left; 
+    }
+    
+    nav .black-item, nav .yellow-item {
+        width: 100%;
+        background-color: rgba(0,0,0,.6);
+    }
+    
+    nav .black-item a, nav .yellow-item a {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-left: 5px;
+        padding: 5px 10px;
+        list-style-type: none;
+}
+    
+/** !!! **/
+    nav .black-item,
+    nav .yellow-item {
+        padding: 5px 30px;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+    
+    .showing {
+        max-height: 10em;
+    }
+    
+    .content h1 {
+        padding-top: 70px;
+        font-size: 26px;
+    }
+    
+    .content .tan,
+    .content .deg {
+        font-size: 57px;
+    }
+
+    #info h2,
+    #info h3 {
+        font-size: 26px;
+    }
+
+    .block-info1 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .block-info2 {
+        text-align: center;
+}
+
+    #questions h3 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+    #questions p {
+    font-size: 18px;
+    line-height: 25px;
+    }
+    
+    .wrap-kripto {
+        margin: 0px;
+        text-align: center;
+    }
+    
+    #kripto h3 {
+        text-align: left;
+        font-size: 26px;
+        line-height: normal;
+        margin-top: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    header img {
+        width: 130px;;
+    }
+    
+    
+    header .top .logo {
+        text-align: center;
+    }
+    
+    nav ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content h1 {
+        margin-left: 10px;
+        padding-top: 80px;
+        font-size: 18px;
+    }
+    
+    .content .tan,
+    .content .deg {
+        font-size: 40px;
+    }
+
+    .questions-content {
+        margin: 0;
+    }
+    
+    #questions h3 {
+        font-size: 23px;
+        line-height: normal;
+    }
+    
+    #questions p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    #kripto h3 {
+        font-size: 23px;
+        line-height: normal;
+
+    }
+
+
+}

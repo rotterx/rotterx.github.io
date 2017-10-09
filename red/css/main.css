@@ -1,0 +1,672 @@
+/** Toggle menu **/
+
+.nav-hidden {
+    display: none;
+}
+
+.navbar-toggle {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    vertical-align: middle;
+    align-content: center;
+    z-index: 10;
+}
+
+.navbar-collapse ul {
+    margin-top: 20px;
+}
+
+.nav-hidden .fa {
+    color: #fff;
+}
+
+.main_mnu_button {
+    display: none;
+    position: absolute;
+    right: 30px;
+    border: medium none;
+    font-size: 33px;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.main_mnu_button .fa {
+    color: #fff;
+    padding: 5px;
+}
+
+
+/** PRELOADER **/
+
+page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #ccc;
+    z-index: 100500;
+}
+
+page-preloader .spinner {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url("../img/preloader_yellow.gif") no-repeat 50% 50%;
+    margin: -26px 0 0 -26px;
+}
+
+body {
+    height: 100%;
+    font-family: 'Asap Condensed', sans-serif;
+    background: url("../img/Dark_bg.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    margin: 25px auto;
+    width: 940px;
+}
+
+
+/** NAV BEGIN**/
+
+.ul-hidden {
+    border-radius: 5px 5px 0 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.navbar-ul {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.navbar-ul a {
+    background-color: transparent;
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.nav-link {
+    letter-spacing: 1.3px;
+    text-align: center;
+    text-shadow: 2px 5px 2px #000, 0 0 0 #dd9ec2;
+    color: transparent;
+    margin: 6px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.nav li:hover {
+    background-color: rgba(0, 0, 0, .3);
+    color: #98808b;
+    transition: all 1s;
+}
+.nav a:hover {
+    color: #98808b;
+}
+
+.navbar-ul li:hover {
+    background-color: #521034;
+    transition: all 1s;
+}
+.navbar-ul a:hover {
+    color: #98808b;
+}
+
+/** NAV END**/
+
+#about {
+    background-color: rgba(0, 0, 0, .7);
+    /** width: 940px;          MEDIA 500 **/
+    border: 1px solid #561032;
+    border-radius: 0 0 5px 5px;
+}
+
+.bg-dark-top {
+    background: url("../img/resized/bg-dark-top160.png") no-repeat center center;
+    height: 160px;
+}
+
+.lead {
+    line-height: 23px;
+    letter-spacing: 1.1px;
+    margin: 50px 100px 0 10px;
+    font-size: 15px;
+    text-align: left;
+    color: #fff;
+}
+
+#about h1,
+#about h4 {
+    font-family: "AvatarRegular";
+    color: #a01662;
+    text-align: center;
+}
+
+#about h1 {
+    /**  MEDIA  **/
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 20px;
+    line-height: 60px;
+}
+
+#about h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.uzor {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.name_color {
+    color: #54d0ce;
+}
+
+.profil img {
+    margin: 50px 0 30px 120px;
+}
+
+.sertefikat {
+    position: relative;
+    width: 75px;
+    height: 125px;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 70px 1px #f0add4;
+    margin: 80px 0px 0 100px;
+}
+
+.btn-scroll {
+    text-align: center;
+    align-content: center;
+    width: 180px;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #37939d;
+    margin: 0 auto;
+    text-align: center;
+    margin: 70px auto;
+    transition-duration: all 2s ease;
+}
+.btn-scroll a {
+   color: #4bfbf8
+}
+    .bttn-scroll:hover {
+        background-color: darkturquoise;
+        text-decoration: none;
+    color: #164544;
+}
+
+
+/** BTN **/
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    overflow: hidden;
+}
+
+a.btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #b8860b;
+    height: 31px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+a.btn:hover:before,
+a.btn:focus:before,
+a.btn:active:before {
+    right: 0;
+}
+
+
+/** Skills **/
+
+#skills {
+    /**  min-height: 100vh;  100% высота экрана **/
+    background-color: rgba(0, 0, 0, .6);
+    /**width: 940px;                MEDIA 500 **/
+    border: 1px solid #561032;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.wrapper-skills {
+    margin-top: 60px;
+}
+
+.text-underline {
+    width: 200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b7968b;
+}
+
+.text-underline h3 {
+    color: #b7968b;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.text_skills {
+    padding: 60px;
+    margin: 30px 0 0 0;
+}
+
+#skills ul {
+    line-height: 25px;
+    font-size: 15px;
+    list-style-image: url("../img/resized/galo4ka-white.png");
+}
+
+.wrap-skills {
+    align-content: center;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.span_deg {
+    margin-right: 65px;
+    font-size: 13px;
+}
+
+.deg {
+    font-size: 12px;
+}
+
+.deg img {
+    margin-right: 10px;
+}
+
+.deg100 {
+    padding-bottom: 20px
+}
+
+.man {
+    text-align: left;
+    padding-top: 150px;
+}
+
+.wrap-icon {
+    padding: 0 0 80px 90px;
+}
+
+.img-icon {
+    text-align: center;
+}
+
+.img-two {
+    text-align: center;
+}
+
+
+/** PORTFOLIO  **/
+
+#portfolio {
+    background-color: rgba(0, 0, 0, .7);
+    /** width: 940px;          MEDIA 500  **/
+    border: 1px solid #561032;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.portfolio_hidden {
+    display: none;
+}
+
+.portfolio-item-new {
+    margin: 30px 0 0 0px;
+    padding: 0 25px;
+}
+
+.portfolio-item-new img {
+    background-size: cover;
+    width: 130px;
+    height: 200px;
+}
+
+.wrap-h4 {
+    align-content: center;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.wrap-h4 h4 {
+    font-size: 18px;
+}
+
+.portfolio-item {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-item.small {
+    grid-row: span 4;
+    grid-column: span 4;
+}
+
+.portfolio-item.medium {
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.portfolio-item.large {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.portfolio-item.tall {
+    rid-row: span 4;
+    grid-column: span 4;
+}
+
+.portfolio-item.wide {
+    rid-row: span 4;
+    grid-column: span 3;
+}
+
+.wrap-my_work {
+    display: grid;
+    height: 100%;
+    padding: 0 150px;
+    /** MEDIA **/
+    /** MEDIA **/
+    flex: 1 1 80%;
+    margin-bottom: 80px;
+}
+
+.portfolio {
+    background: url("../img/resized/monitor-ligh13t-png.png") no-repeat center center;
+    background-size: cover;
+    padding: 50px;
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(7, 45px);
+    /** MEDIA 35-25**/
+    grid-template-columns: repeat(9, 45px);
+    /** MEDIA 35-25**/
+    grid-gap: 15px;
+}
+
+
+/**.wrap-my_work {
+    display: grid;
+    height: 100%;
+    
+}
+
+.portfolio-item {
+    padding: 2x;
+    background: url("../img/sertefica-Vsevolodt_html.jpg") no-repeat center center;
+    position: relative;
+    background-blend-mode: multiply; 
+     transition: all 1s;
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+     background-color: firebrick;    
+    color: #fff;
+    margin:5px;
+    align-content: center;
+    text-align: center;
+    color: red;
+     z-index: 10;
+    
+    
+}
+
+.portfolio-item::before {
+      content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: dimgrey;  
+    opacity: 0.9;
+    z-index: -1;
+}
+.portfolio-item:hover::before {
+    opacity: 0;
+    transition: all 1.5s;    
+    background-blend-mode: initial;
+    background-position: center;
+    cursor: pointer;  
+    align-content: center;
+}
+**/
+
+
+/** CONTACTS  **/
+
+#contacts {
+    /**height: 615px; **/
+    background-color: rgba(0, 0, 0, .7);
+    /** width: 940px;          MEDIA 500 **/
+    border: 1px solid #561032;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.adress {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.Send-message {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color: #b8860b;
+}
+
+.yourajaxforma1 input,
+.yourajaxforma2 input,
+.yourajaxforma3 textarea {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.yourajaxforma1 input,
+.yourajaxforma2 input,
+.yourajaxforma3 textarea {
+    color: #fff;
+    border: none!important;
+    border-bottom: 1px solid red!important;
+    background-color: transparent!important;
+}
+
+.yourajaxforma1 input {
+    margin-right: 10px;
+    width: 172px;
+}
+
+.yourajaxforma1 {
+    margin-right: 20px;
+    padding: 20px 0;
+}
+
+.yourajaxforma2 {
+    display: inline;
+}
+
+.yourajaxforma3 textarea {
+    height: 32px;
+    width: 357px;
+    padding: 5px;
+}
+
+.yourajaxforma4 {
+    margin-top: 20px!important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    width: 357px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    background-color: darkgoldenrod;
+    color: darkgoldenrod;
+    text-shadow: 2px 2px 2px black, 0 0 1em #000;
+}
+
+.yourajaxforma4:hover {
+    color: #521035;
+    font-weight: 700;
+    text-shadow: none;
+}
+
+.contact_div {
+    margin-top: 80px;
+}
+
+.contact_div h4 {
+    text-transform: none;
+    text-align: left;
+    font-size: 14px;
+    margin: 0 0 0 70px;
+    line-height: 25px;
+}
+
+.Send-message {
+    margin-top: 73px;
+}
+
+.foot-right {
+    display: inline;
+}
+
+.foot-icon {
+    padding: 70px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.foot-icon li {
+    margin: 3px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    padding: 10px;
+    display: inline;
+}
+
+.foot-icon li:hover {
+    background-color: #fff;
+}
+
+.fa {
+    width: 20px;
+    height: 20px;
+    color: #b8860b;
+}
+
+.fa-facebook,
+.fa-vk,
+.fa-twitter,
+.fa-google-plus {
+    color: #521035;
+}
+
+.fa-vk:hover,
+.fa-twitter:hover,
+.fa-google-plus:hover {
+    color: #fff;
+    text-shadow: 2px 2px 2px black, 0 0 1em #000;
+    transition: all 0.3s;
+}
+
+.bg-dark-footer {
+    background: url("../img/resized/bg-footer.png") no-repeat bottom center;
+    height: 160px;
+    margin-top: 80px;
+}
+
+
+/** MAP **/
+
+#map_wrapper {
+    height: 350px;
+    margin: 0;
+    color: #521035;
+}
+
+#map_canvas {
+    border: 3px solid aquamarine;
+    margin: 35px 0 0 60px;
+    width: 400px;
+    height: 100%;
+}
+
+.color_adress {
+    color: #b8860b;
+    text-decoration: underline
+}
+
+
+/**   FONTS   **/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400i');
+
+/** font-family: 'Montserrat', sans-serif; **/
+
+@import url('https://fonts.googleapis.com/css?family=Kalam|Montserrat:400i');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+@font-face {
+    font-family: "AvatarRegular";
+    src: url("../fonts/AvatarRegular/AvatarRegular.eot");
+    src: url("../fonts/AvatarRegular/AvatarRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/AvatarRegular/AvatarRegular.woff") format("woff"), url("../fonts/AvatarRegular/AvatarRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,0 +1,346 @@
+    /*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .wrapper {
+        width: 100%;
+    }
+    .wrap-my_work {
+        padding: 30px;
+    }
+    #map_canvas {
+        margin: 0 auto;
+    }
+    .yourajaxforma1 {
+        margin: 0 160px;
+        padding-top: 20px;
+    }
+    .Send-message {
+        margin: 0 160px;
+        padding-top: 25px;
+    }
+    .adress {
+        padding-top: 30px;
+        margin: 0 160px;
+    }
+    .contact_div {
+        margin: 0 0 0 90px;
+        padding: 50px 0px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .navbar-ul {
+        display: none;
+    }
+   .nav-hidden {
+    display: block;
+}
+    
+     .adress {
+        font-size: 14px;
+    }
+    .btn {  
+    font-size: 9px;
+    font-weight: 800;
+    text-align: center;
+    transition-duration: all 2s ease; 
+}
+    .sertefikat img,
+    .sertefikat {
+        width: 60px;
+        height: 90px;
+        border: none;
+    }
+    .portfolio {
+        display: none;
+    }
+    .profil img {
+        margin: 50px 0 10px 80px;
+    }
+    .portfolio-item-new {
+        margin-top: 15px;
+        align-content: center; 
+        text-align: center;
+    }
+    .portfolio_hidden {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }   
+    
+    .sertefikat {
+        margin: 30px auto;
+    }
+    .text-underline {
+        width: 170px;
+    }
+    .text-underline h3 {
+        font-size: 15px;
+    }
+    .man {
+        text-align: center;
+    }
+    .lead {
+        font-size: 12px;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .wrap-skills,
+    .man {
+        padding: 10px;
+    }
+    .wrap-icon {
+        padding: 20px 0 70px 45px;
+    }
+    .wrap-h4 h4 {
+        font-size: 16px;
+    }
+    .wrap-h4 {
+        margin: 5px auto;
+    }
+    #map_canvas {
+        width: 360px;
+        height: 360px;
+    }
+    .contact_div {
+        padding: 15px;
+        margin: 0 auto;
+    }
+    .adress,
+    .send-message,
+    .yourajaxforma1 {
+        margin-left: 70px;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .foot-icon {
+        padding: 100px 10px 0 0;
+    }
+    .yourajaxforma1 input,
+    .yourajaxforma2 input {
+        width: 100px;
+    }
+    .yourajaxforma4,
+    .yourajaxforma3 textarea {
+        width: 270px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    
+    .btn {
+    padding: 5px;
+    font-size: 8px;
+    font-weight: 800;
+    text-align: left;
+    transition-duration: all 2s ease; 
+}
+    .uzor img {
+        width: 90px;
+        height: 20px;
+    }
+    .profil img {
+        width: 50px;
+        height: 50px;
+        margin: 50px 0 10px 50px;
+    }
+    #about h4 {
+        font-size: 13px;
+    }
+    #about h1 {
+        font-size: 30px;
+    }
+    .text-underline h3 {
+        font-size: 13px;
+    }
+    .wrap-skills {
+        text-align: center;
+        align-content: center;
+    }
+    .span_deg {
+        font-size: 11px;
+    }
+    .wrap-h4 {
+        margin: 20 auto;
+    }
+    #map_canvas {
+        width: 250px;
+        height: 250px;
+    }
+    .send-me {
+        text-align: left;
+        font-size: 11px;
+    }
+    .Send-message, .adress {
+        text-align: left;
+        align-content: center;
+        margin: 0 auto;
+        padding: 50px 0 10px 5px;
+    }
+    .yourajaxforma1 {
+        margin: 0 auto;
+    }
+    .yourajaxforma4,
+    .yourajaxforma3 textarea {
+        font-size: 12px;
+        width: 260px;
+    }
+    .yourajaxforma1 input,
+    .yourajaxforma2 input {
+        font-size: 12px;
+    }
+    .yourajaxforma3 textarea {
+        margin-top: 20px;
+    }
+    .adress {
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 75px;
+        font-size: 12px;
+    }
+    .text_skills ul>li {
+        margin-left: 20px;
+    }
+    .deg img {
+        width: 70px;
+        height: 4px;
+    }
+    
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    .wrap-skills,
+    .man,
+    .wrap-icon {
+        margin: 0 auto;
+    }
+    .wrap-icon {
+        padding: 50px 5px;
+    }
+    .text_skills {
+        margin: 0;
+        padding: 50px 0;
+    }
+    .Send-message {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .text-underline {
+        width: 100px;
+    }
+    .contact_div h4,
+    .Send-message {
+        font-size: 12px;
+    }
+    #about h1,
+    #about h4 {
+        font-size: 22px;
+    }
+    .profil img {
+        width: 35px;
+        height: 35px;
+    }
+    .wrap-icon img {
+        width: 100px;
+        height: 30px;
+    }
+    .img-icon img {
+        width: 20px;
+        height: 20px;
+    }
+    #map_canvas {
+        width: 210px;
+        height: 190px;
+    }
+    .yourajaxforma1 {
+        margin-left: 10px;
+    }
+    .yourajaxforma4,
+    .yourajaxforma3 textarea {
+        width: 110px;
+         margin: 0 auto;
+    }
+    .yourajaxforma2 input {
+        width: 65px;
+    }
+    .contact_div h4 {
+        width: 100px;
+    }
+    .man img {
+        width: 100px;
+        height: 120px;
+    }
+    .uzor img {
+        width: 80px;
+        height: 15px;
+    }
+    .lead {
+        font-size: 11px;
+        margin: 0;
+        padding: 0;
+    }
+    .wrap-h4 {
+        margin: 5 auto;
+    }
+    #about h4 {
+        font-size: 11px;
+    }
+    .text_skills li {
+        font-size: 11px;
+    }
+    .text_skills ul {
+        padding: 0;
+        margin: 0;
+    }
+    .text-underline h3 {
+        font-size: 11px;
+    }
+    .send-me {
+        font-size: 11px;
+    }
+    .adress {
+         padding-left: 15px;
+    }
+    .portfolio-item-new img {
+        width: 90px;
+        height: 110px;
+    }
+    .contact_div {
+        margin: 0 auto;
+        margin: 0 5px;
+        text-align: center;
+    }
+    .contact_div h4 {
+        align-content: center;
+    }
+
+
+}
+    /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width: 320px) {}
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width: 480px) {}
+    /* Small Devices, Tablets */
+    @media only screen and (min-width: 768px) {}
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width: 992px) {}
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width: 1200px) {}

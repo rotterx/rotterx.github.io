@@ -1,0 +1,237 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    color: dimgray;
+}
+
+/** ================= general begin ================= **/
+a {
+	text-decoration: none;
+	-moz-transition: all linear .3s;
+	-webkit-transition: all linear .3s;
+	-o-transition: all linear .3s;
+	transition: all linear .3s;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/** ================= general end ================= **/
+
+header {
+    font-family: 'Lobster', cursive;
+    background-color: #00795f;
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.logo {
+    width: 39%;
+    text-align: left;
+}
+
+header h1 {
+    margin: 10px 0;
+    vertical-align: middle;
+}
+
+nav .ul_mnu {
+    overflow: hidden;
+    background-color: #43a286;
+    padding: 0;
+    margin: 0 auto;
+    text-align: right; 
+    transition: max-height 1s;        /**ВЫЕЗЖАЕТ С ЗАДЕРЖКОЙ**/
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 50px;
+    list-style-type: none;
+}
+
+.ul_mnu a {
+    font-size: 14px;
+    font-weight: 500;
+    color: springgreen;
+    text-transform: uppercase;
+}
+
+.ul_mnu a:hover {
+    transition: all 0.6s;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    transition: all 0.6s;
+    background-color: #399077;
+}
+
+
+
+.menu-icon {
+    width: 100%;
+    background-color: #005c48;
+    text-align: right;
+    padding: 15px 10px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+/** content 2 block **/
+#content-box {
+    padding: 50px 0;
+}
+
+#content-box .content-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.img {
+    text-align: center;
+}
+
+/**CONTACT FORM**/
+#feedback-form {
+  max-width: 400px;
+  padding: 2%;
+  border-radius: 3px;
+  background: #f1f1f1;
+}
+#feedback-form [required] {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2px 0 2% 0;
+  padding: 2%;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:focus {
+  outline: none;
+  border-color: #7eb4ea;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5);
+  transition: .2s linear;
+}
+#feedback-form [type="submit"] {
+  padding: 2%;
+  border: none;
+  border-radius: 3px;
+  background: #669acc;
+  color: #fff;
+}
+#feedback-form [type="submit"]:hover {
+  background: #5c90c2;
+    cursor: pointer;
+}
+
+#form-hidden {
+    display: none;
+    color: #013F54;
+    border: 1px solid #7fb1ae;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, rgba(49,80,91,1) 25%,rgba(127,177,174,1) 48%,rgba(67,132,112,1) 71%,rgba(66,130,102,1) 72%);
+    position: fixed;
+    top: 37%;
+    left: 38%;
+}
+
+#form-hidden h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#form-hidden button {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #298266;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 90px;
+    text-align: center;
+}
+
+#form-hidden p {
+    padding: 6px;
+    text-align: center;
+}
+
+.good {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 3px 6px;
+}
+
+/** MEDIA **/
+@media (max-width: 580px) {
+    nav ul {
+        max-height: 0px;
+    }
+    nav ul li {
+        width: 100%;
+        text-align: left;
+    }
+    .menu-icon {
+     display: block;
+    }
+    .showing {
+        max-height: 10em;  /**10em**/
+    }
+}
+
+
+/** fonts **/
+@font-face {
+			font-family: "ProximaNovaRegular";
+			src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+			src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+			url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
+			font-family: "ProximaNovaBold";
+			src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+			src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+			url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "ProximaNovaBlack";
+			src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
+			src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
+			url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}

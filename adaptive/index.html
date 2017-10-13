@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <title>Adaptive menu</title>
+
+</head>
+
+<body>
+    <header>
+     <div class="container">
+     <div class="row">
+      <div class="logo">
+       <img src="img/light-logo113.png" alt="">
+       </div>
+        <h1>Adaptive menu</h1>
+        </div>
+        </div>
+    </header>
+
+    <nav class="main_mnu">
+        <div class="menu-icon">
+            <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+        </div>
+        <ul class="ul_mnu">
+            <li class="item"><a href="#">about</a></li>
+            <li class="item"><a href="#">portfolio</a></li>
+            <li class="item"><a href="#">contacts</a></li>
+        </ul>
+    </nav>
+
+    <section id="content-box">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="content-header">Заголовок</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="img">
+                        <img src="img/bitcoin.png" alt="#">
+                    </div>
+                    <h4></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto id in, ratione sint eveniet beatae sunt totam corporis laboriosam possimus accusantium, sapiente eius, repudiandae quaerat. Maiores velit nihil, at deleniti!</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="img">
+                        <img src="img/bitcoin.png" alt="#">
+                    </div>
+                    <h4></h4>
+                    <p>Quos ducimus natus nam quae pariatur architecto nulla porro itaque necessitatibus enim sit, magni deserunt unde facere libero, saepe! Hic, voluptates. Delectus quod fuga magnam, velit officiis aliquam fugit consequuntur.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="img">
+                        <img src="img/bitcoin.png" alt="#">
+                    </div>
+                    <h4></h4>
+                    <p>Impedit, possimus harum nihil nisi obcaecati tempore ex aliquid quisquam delectus consectetur recusandae minus, dolor incidunt fugiat. Voluptatum maiores, laboriosam, magnam alias ad aut culpa corporis sequi nesciunt aliquid cupiditate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <section id="contacts">
+        <div class="form">
+            <form method="POST" id="feedback-form">
+                <!--  hidden  -->
+                <input type="hidden" name="project_name" value="Название сайта">
+                <input type="hidden" name="admin_email" value="q.fq@yandex.ru">
+                <input type="hidden" name="form_subject" value="Тема письма">
+                <!--  end hidden  -->
+
+                Ваше имя:
+                <input type="text" name="name" required placeholder="введите имя..." x-autocompletetype="name"> Ваш Email:
+                <input type="email" name="E-mail" required placeholder="введите email..." x-autocompletetype="email"> Ваше сообщение:
+                <textarea name="message" required placeholder="введите сообщение..." required rows="3"></textarea>
+                <input type="submit" value="отправить">
+            </form>
+        </div>
+    </section>
+
+    <div id="form-hidden">
+        <h5>Спасибо за заявку</h5>
+        <p>я свяжусь с вами в ближайшее время</p>
+        <button><p class="good">отлично!</p></button>
+    </div>
+
+    <!-- JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/form.js"></script>
+    <!--<script src="js/common.js"></script>-->
+</body>
+
+</html>

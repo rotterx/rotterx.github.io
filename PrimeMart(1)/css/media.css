@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    
+    
+    
+}
+
+@media (max-width: 992px) {
+    
+    
+    
+}
+
+
+@media (max-width: 768px) {
+    
+    
+    
+}
+
+@media (max-width: 480px) {
+    
+    
+    
+}
+
+/** ================= ** media general ** ================= **/
+@media (max-width: 860px) {
+    h1, h2, h3, h4, h5 {
+        text-align: center;
+    }
+    .block {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 324px) {
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.4rm;
+    }
+    button {
+        font-size: 1em;
+    }
+}

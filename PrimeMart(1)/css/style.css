@@ -1,0 +1,184 @@
+body {
+   /** min-width: 275px;  **/
+}
+
+section {
+    outline: 0;
+    margin: 0;
+    background: url('../img/111.jpg') no-repeat center center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-logo {
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.menu {
+    /**width: 573px;**/
+    height: 654px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    margin: 40px 0 0 0;
+    padding: 30px;
+}
+
+.menu p {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.buttons,
+.social-icons {
+    margin: 80px 0 0 0;
+}
+
+.btn-icon {
+    display: inline-block;
+}
+
+.buttons img {
+    margin: 0 -25px;
+}
+
+.social-icons {
+    margin-left: 220px;
+    color: #070707;
+    width: 335px;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.social-icons p {
+    text-transform: uppercase;
+    font-family: "SegoeScript";
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px 0 0 10px;
+
+}
+
+.social-icons img {
+    margin: 0;
+    padding: 0;
+}
+
+/** media **/
+
+@media only screen and (max-width: 1200px) {
+    
+    .buttons {
+        margin: 50px 0 0 0;
+    }
+
+    .social-icons {
+        margin: 40px 0 0 130px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .menu {
+        height: 550px;
+    }
+
+    .buttons {
+        margin: 30px  0;
+
+    }
+
+    .social-icons {
+        width: 430px;
+        margin: 20px auto;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    section {
+        height: 115vh;
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    .social-icons {
+        height: auto;
+        ------
+        padding: 0;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .social-icons p {
+        text-align: center;
+    }
+
+    .social-icons img {
+        margin: 10px 0;
+        width: 50px;
+        height: 45px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .wrapper {
+        margin: 0;
+    }
+
+    .img-logo img {
+        width: 200px;
+    }
+
+    .img-logo {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .menu p {
+        font-size: 17px;
+    }
+
+    .buttons {
+        text-align: center;
+        margin: 25px 0 0 0;
+    }
+
+    .buttons img {
+        width: 125px;
+        height: 40px;
+        margin: 0 -20px;
+    }
+
+    .social-icons {
+        margin: 10px auto;
+        width: 219px;
+        padding: 0;
+    }
+
+}
+
+
+/** fonts **/
+
+@font-face {
+    font-family: "SegoeScript";
+    src: url("../fonts/Segoe_Script.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

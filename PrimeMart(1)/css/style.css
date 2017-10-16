@@ -6,7 +6,7 @@ section {
     outline: 0;
     margin: 0;
     background: url('../img/111.jpg') no-repeat center center;
-    height: 100vh;
+    min-height: 100vh;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -107,9 +107,6 @@ section {
 
 @media only screen and (max-width: 768px) {
 
-    section {
-        height: 115vh;
-    }
 
     .buttons {
         text-align: center;

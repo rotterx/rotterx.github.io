@@ -1,0 +1,304 @@
+@media (max-width: 1200px) {
+    #about .man img {
+        width: 450px;
+    }
+
+
+
+}
+
+@media (max-width: 992px) {
+    /** fz 16px **/
+    .wrap-section {
+        margin: 0;
+    }
+
+    #about .man {
+        padding-top: 145px;
+    }
+
+    #about .man img {
+        width: 340px;
+    }
+
+    #about p {
+        font-size: 16px;
+    }
+
+    .skidka {
+        margin-top: 0;
+        font-size: 26px;
+    }
+
+    #skills p {
+        height: 90px;
+        padding: 20px 25px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    #nav ul li {
+        padding: 10px 20px;
+    }
+
+    .wrap-section {
+        margin: 30px 0;
+    }
+
+    header .wrap_header {
+        padding-top: 250px;
+    }
+    .img-mobile {
+        border: none;
+    }
+    #about .logo {
+        margin: 10px 0;
+    }
+
+    #about .logo img {
+        width: 70px;
+        height: 60px;
+    }
+
+    #about .man {
+        padding: 0 0 30px 0;
+        border-bottom: 1px solid #000;
+    }
+    .wrap_forme {
+        padding: 30px 0;
+    }
+
+    .skidka {
+        text-align: center;
+        color: #fff;
+        ;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .timer {
+        padding: 5px 15px;
+        margin: 5px 0;
+    }
+        
+    #skills p {
+        height: 110px;
+        padding: 10px 25px;
+    }
+
+
+    .footer_left {
+        font-size: 16px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .footer-right,
+    .foot-icon {
+        text-align: right;
+    }
+
+
+}
+
+@media (max-width: 580px) {
+
+    .ul_nav {
+        max-height: 0px;
+    }
+    #nav ul li:hover {
+        outline: none;
+    }
+    #nav ul li {
+        margin: 0;
+        padding: 5px 10px;
+        width: 100%;
+        text-align: left;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .showing {
+        max-height: 10em;
+        /**10em**/
+    }
+
+    #about .man {
+        padding-bottom: 15px;
+    }
+
+    #about p {
+        padding: 0;
+    }
+
+    #taimer {
+        min-height: height: 45vh;
+        padding: 5px 0;
+    }
+
+
+    #taimer img {
+        width: 15%;
+    }
+
+    #skills p {
+        height: 50px;
+        padding: 15px 25px;
+    }
+
+    .contact_div {
+        font-size: 14px;
+        width: 340px;
+        text-align: left;
+        padding: 50px 0 50px 0;
+        letter-spacing: 1.5px;
+        line-height: 1.5;
+    }
+
+    .bottom {
+        min-height: 520px;
+        width: 100%;
+        margin-top: -220px;
+    }
+
+
+    .footer_left {
+        font-size: 14px;
+        text-align: left;
+        margin: 0;
+        padding-bottom: 25px;
+    }
+
+    .footer-right,
+    .foot-icon {
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 480px) {
+    /** fz 14px **/
+    #skills h2 {
+        width: 140px;
+    }
+
+    header .wrap_header {
+        padding-top: 160px;
+    }
+
+    header {
+        height: 77vh;
+    }
+    header img {
+        width: 99px;
+        height: 190px;
+    }
+    .wrap_left h1 {
+        font-size: 36px;
+    }
+    .wrap_left p {
+        font-size: 23px;
+    }
+    header button {
+        padding: 5px 10px;
+    }
+    header button a {
+        font-size: 12px;
+    }
+
+    #about .man {
+        display: none;
+    }
+
+    #about .logo {
+        margin: 20px 0;
+    }
+
+    #about p {
+        font-size: 14px;
+    }
+
+    #about {
+        min-height: 70vh;
+    }
+
+    .wrap-section {
+        padding: 10px 0;
+    }
+
+    #portfolio li {
+        padding: 3px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .content-header {
+        width: 125px;
+        font-size: 14px;
+    }
+
+    .wrap-section img {
+        width: 90px;
+        height: 120px;
+    }
+
+    #taimer button {
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .timer {
+        padding: 5px 15px;
+        margin: 5px 0;
+    }
+
+    #skills p {
+        height: 80px;
+    }
+
+    .bottom {
+        margin-top: -260px;
+    }
+
+    .contact_div {
+        font-size: 12px;
+        width: 230px;
+        padding: 30px 0;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+}
+
+/** ================= ** media general ** ================= 
+@media (max-width: 860px) {
+    h1, h2, h3, h4, h5 {
+        text-align: center;
+    }
+    .block {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 324px) {
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.4rm;
+    }
+    button {
+        font-size: 1em;
+    }
+}
+**/

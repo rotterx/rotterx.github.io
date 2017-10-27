@@ -39,7 +39,7 @@ header {
 }
 
 header .wrap_header {
-    padding-top: 360px;
+    padding-top: 280px;
 }
 
 .wrap_left {
@@ -229,6 +229,13 @@ button:hover {
     text-align: center;
 }
 
+.wrap_icon img:hover {
+    cursor: pointer;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+    transform: rotateY(360deg);
+}
+
 #skills p {
     height: 90px;
     background-color: #dadada;
@@ -278,7 +285,7 @@ button:hover {
 .filter .active {
     line-height: 2;
     background-color: #e1964c;
-    border-left: 1px solid #e1964c;
+    border-leftbisque: 1px solid #e1964c;
     border-top: 1px solid #e1964c;
     border-right: 1px solid #e1964c;
 }

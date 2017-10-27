@@ -71,7 +71,7 @@
                     </div>
                     <div class="col-md-6 wrap_right">
                         <div class="logo">
-                            <img src="img/logo-web.png" alt="logo">
+                            <img src="img/shark.png" height="80" width="70" alt="logo">
                         </div>
                         <div class="about_content">
                             <p>Занимаюсь вёрсткой сайтов и шаблонов для CMS, разрабаткой пользовательских интерфейсов и внедрение в них скриптов, которые отвечают за анимацию и логику на веб – страницах. В 2014 году окончил интерактивные курсы HTML – академи и получил сертификат "Создание веб-интерфейсов с помощью HTML и CSS". После чего стремительно развиваю навыки в сайтостроении. Успешно изучаю и практикую популярные технологии веб – разработок по современным материалам.</p>
@@ -242,12 +242,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form">
-                        <form method="POST" id="feedback-form">
+                        <form class="wow flipInY" data-wow-duration="600ms" data-wow-offset="150" method="POST" id="feedback-form">
                             Ваше имя:
                             <input type="text" name="name" required placeholder="введите имя..." x-autocompletetype="name"> Ваш Email:
                             <input type="email" name="E-mail" required placeholder="введите email..." x-autocompletetype="email"> Ваше сообщение:
                             <textarea name="message" required placeholder="введите сообщение..." required rows="3"></textarea>
-                            <input type="submit" value="отправить">
+                            <input 
+                        onclick="document.getElementById('contacts').style.background = 'bisque';" type="submit" value="отправить">
                         </form>
                     </div>
                 </div>

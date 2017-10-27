@@ -247,8 +247,7 @@
                             <input type="text" name="name" required placeholder="введите имя..." x-autocompletetype="name"> Ваш Email:
                             <input type="email" name="E-mail" required placeholder="введите email..." x-autocompletetype="email"> Ваше сообщение:
                             <textarea name="message" required placeholder="введите сообщение..." required rows="3"></textarea>
-                            <input 
-                        onclick="document.getElementById('contacts').style.background = 'bisque';" type="submit" value="отправить">
+                            <input onclick="document.getElementById('contacts').style.background = 'bisque';" type="submit" value="отправить">
                         </form>
                     </div>
                 </div>
@@ -316,5 +315,37 @@
             });
         });
     </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter46435062 = new Ya.Metrika({
+                        id: 46435062,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true,
+                        trackHash: true
+                    });
+                } catch (e) {}
+            });
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function() {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks");
+    </script> <noscript><div><img src="https://mc.yandex.ru/watch/46435062" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
+
 </html>

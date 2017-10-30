@@ -1,0 +1,178 @@
+body {
+    color: #94999b;
+    background-color: #464646;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    font-family: 'Lato', sans-serif;
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 900px;
+}
+
+.row,
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    height: 150px;
+}
+
+.logo {
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.logo-text {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 14px;
+    color: #909598;
+}
+
+
+.mobile-nubmer {
+    margin-top: 35px;
+    margin-left: 155px;
+}
+
+.mobile-nubmer h3 {
+    color: #282749;
+    margin-bottom: -10px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.call {
+    font-weight: 500;
+}
+
+.mobile-nubmer p {
+    color: #bbbebf;
+    font-size: 13px;
+}
+
+.audit {
+    margin-left: 25px;
+}
+
+.audit h3 {
+    color: #282749;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.audit h4 {
+    font-size: 26px;
+    color: #00a8ff;
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.price {
+    text-align: right;
+    margin-right: 85px;
+}
+
+.price-deg {
+    margin-top: -5px;
+    letter-spacing: 1.6px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #00a8ff;
+}
+
+.price-p {
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+.line {
+    text-align: center;
+    margin: 37px 0;
+    width: 675px;
+    border-bottom: 1px solid #e3edf3;
+}
+
+.errors {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.red p,
+.yellow p,
+.green p {
+    text-align: left;
+    display: inline-block;
+}
+
+.errors-text {
+    margin-left: 10px;
+    font-size: 19px;
+    color: #db3a3a;
+}
+
+.recomends {
+    margin-left: 10px;
+    font-size: 19px;
+    color: #ffc000;
+}
+
+.not-errors {
+    margin-left: 10px;
+    font-size: 19px;
+    color: #5fd144;
+}
+
+.wave-line {
+    background-image: url('../img/wave-line.png');
+    margin-left: -40px;
+    width: 800px;
+    height: 10px;
+}
+
+.errorstext {
+    padding: 0 35px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.man {
+    margin-top: 15px;
+}
+
+.img-man {
+    margin-left: 23px;
+}
+
+.wrap-man-text {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 110px;
+}
+
+.man h1 {
+    line-height: 0.5;
+    color: #28373f;
+    font-size: 24px;
+}
+
+.man p {
+    font-size: 18px;
+}
+
+.img-brand {
+    margin-top: 25px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
